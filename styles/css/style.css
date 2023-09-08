@@ -1,0 +1,131 @@
+:root{
+    --green: #77a980;
+    --bgc: #e8e8e8;
+    --purple: #770859;
+    --pink: #ffb8ff;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: #e8e8e8;
+}
+.wrapper{
+    height: 100vh;
+    width: 100%;
+    /* background-color: #f5f5f5; */
+}
+.container{
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+/* header ////////////////////////////////////////////////////////////////////// */
+
+/* header ////////////////////////////////////////////////////////////// */
+/* main //////////////////////////////////////////////////////////////// */
+/* title ////////////////////////////////////////////////////////////// */
+.main {
+}
+.title {
+    background-color: #77a980;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.title__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title__logo {
+    width: 400px;
+    height: 400px;
+}
+.title__title {
+    font-weight: 600;
+    font-size: 90px;
+    text-transform: uppercase;
+}
+.title__subtitle {
+    margin-top: 20px;
+    font-size: 30px;
+}
+.title__btn {
+    font-family: inherit;
+    margin-top: 40px;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background-color: #ffb8ff;
+    transition: 0.3s;
+}
+
+/* games /////////////////////////////////////////////////////// */
+.games {
+    /* padding-top: 50px; */
+    margin-bottom: 200px;
+}
+.container {
+}
+.games__inner {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+}
+.games__card {
+
+
+}
+.games__card:hover{
+    cursor: pointer;
+}
+.reaction {
+}
+.card-img {
+    width: 100px;
+}
+.card-title {
+    font-size: 30px;
+}
+.card-subtitle {
+    font-size: 20px;
+    text-align: center;
+}
+.games-card-link:hover{
+    background-color: #77a980;
+    /* background-color: #8d82ba; */
+}
+.games-card-link{
+    transition: 0.5s;
+    height: 220px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    gap: 20px;
+    justify-content: center;
+}
+.small{
+    display: flex;
+    gap: 60px;
+    margin-bottom: 30px;
+} 
+.big{
+    display: flex;
+    gap: 40px;
+} 
+.full{
+    width: 490px;
+}
+.nfull{
+    width: 300px;
+}
+/* footer /////////////////////////////////////////////////////////////// */

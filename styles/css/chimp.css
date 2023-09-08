@@ -1,0 +1,53 @@
+.main {
+}
+.main__inner {
+}
+.game-window {
+}
+.content1 {
+}
+.logo {
+}
+.title-chimp {
+    font-size: 40px;
+}
+.content2 {
+}
+.content3 {
+}
+.content3 p {
+    text-align: center;
+    font-size: 25px;
+}
+
+.game-window {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    gap: 20px;
+    cursor: pointer;
+    background-color: #77a980;
+    margin-bottom: 30px;
+}
+.about {
+}
+.container {
+}
+.about__inner {
+    background-color: #fff;
+    font-size: 25px;
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+}
+.link{
+    color: #770859;
+}
+

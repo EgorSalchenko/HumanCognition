@@ -1,0 +1,34 @@
+.main {
+}
+.main__inner {
+}
+.game-window {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    gap: 20px;
+    cursor: pointer;
+    background-color: #77a980;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.about {
+}
+.container {
+}
+.about__inner {
+    background-color: #fff;
+    font-size: 25px;
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+}
+div{
+    line-height: 30px;
+}

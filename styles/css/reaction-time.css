@@ -1,0 +1,123 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: #e8e8e8;
+}
+.wrapper{
+    height: 100vh;
+    width: 100%;
+    /* background-color: #f5f5f5; */
+    display: flex;
+    flex-direction: column;
+
+}
+.container{
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header {
+    height: 50px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.header__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-left {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    /* gap: 30px; */
+}
+.header-logo {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-right: 8px;
+    transition: 0.2s;
+}
+.header-logo:hover{
+    background-color: #ffffff;
+}
+.header-statistics {
+    transition: 0.2s;
+    padding: 15px;
+    padding-bottom: 14px;
+}
+.header-statistics:hover{
+    background-color: #ffffff;
+}
+.header-right {
+    display: flex;
+    
+}
+.header__signup {
+    padding: 15px;
+    transition: 0.2s;
+}
+.header__signup:hover{
+    background-color: #ffffff;
+}
+.header__login {
+    transition: 0.2s;
+    padding: 15px;
+}
+.header__login:hover{
+    background-color: #ffffff;
+}
+.cognition-logo{
+    height: 50px;
+}
+main{
+    /* background-color: #131313; */
+    flex: 1 1 auto
+}
+.main__inner {
+}
+.speed-window{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    gap: 20px;
+    cursor: pointer;
+}
+.start {
+    background-color: #77a980;
+}
+.cont1 {
+}
+.cont2 {
+    font-size: 40px;
+}
+.cont3 {
+    font-size: 20px;
+    text-align: center; 
+}
+.cont1 img{
+    width: 200px;
+    height: 200px;
+}
+.about{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about__inner{
+    font-size: 25px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    line-height: 30px;
+}
+.wait{
+    background-color: #dd5e5e;
+}
+.click{
+    background-color: #77a980;
+}
+.end, .click{
+    background-color: #77a980;
+}
