@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Human Cognition</title>
+    <link rel="shortcut icon" href="../img/svg/cognition-greensvg.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/css/reset.css" />
+    <link rel="stylesheet" href="../styles/css/header.css" />
+    <link rel="stylesheet" href="../styles/css/style.css" />
+    <link rel="stylesheet" href="../styles/css/number-memory.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="container">
+              <div class="header__inner">
+                <div class="header-left">
+                  <a href="index.html" class="header-logo">
+                    <img
+                      id="logo"
+                      class="cognition-logo"
+                      src="../img/svg/cognition.svg"
+                      alt=""
+                    />
+                    human cognition
+                  </a>
+                  <!-- <a href="statistics.html" class="header-statistics">Statistics</a> -->
+                </div>
+                <div class="header-right">
+                  <a href="registration.html" class="header__signup">sign up</a>
+                  <a href="login.html" class="header__login">login</a>
+                </div>
+              </div>
+            </div>
+          </header>
+          
+          <script>
+            if (location == "http://humancognition/html/aim.html") {
+              // alert(13)
+              let logo = document.querySelector(".header-logo");
+              console.log(logo);
+              logo.style.padding = "5px 8px 5px 0px";
+            }
+          </script>
+          
+
+        <main class="main">
+            <div class="main__inner">
+                <div id='game-window' class="game-window start">
+                    <div id='content1' class="content1"><img src="../img/svg/numbers.svg" alt="" class="logo"></div>
+                    <div id='content2' class="content2"><h1>Number Memory</h1></div>
+                    <div id='content3' class="content3"><p>Click anywhere to start!</p></div>
+                </div>
+            </div>
+            <div class="about">
+                <div class="container">
+                    <div class="about__inner">
+                        <p>About the test</p> <br>
+                        <p>The average person can only remember 7 digit numbers reliably, but it's possible to do much better using mnemonic techniques. Some helpful links are provided below.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <!-- <button id=btn-submit class='btn-submit'>Submit</button> -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__copyright">Copyright 2023 Human Cognition</div>
+                    <div class="footer__contact"><a target="_blank" href="mailto:egordelovayakolbasa@yandex.ru">egordelovayakolbasa@yandex.ru</a></div>
+                    <div class="footer__git-hub"><a target="_blank" href="https://github.com/EgorSalchenko">GitHub</a></div>
+                </div>
+            </div>
+        </footer>
+        
+        <style>
+        .footer {
+            height: 70px;
+            /* background-color: #77a980; */
+        }
+        .container {
+        }
+        .footer__inner {
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            justify-content: center;
+            height: 70px;
+            gap: 5px;
+        }
+        .footer a {
+            color: #770859;
+        }
+        </style>
+    </div>
+    <script src='../js/number-memory.js'>
+        // alert(123)
+    </script>
+    <style>
+.content2{
+    font-size: 70px;
+}
+input {
+            outline: none;
+        }
+    </style>
+</body>
+</html>

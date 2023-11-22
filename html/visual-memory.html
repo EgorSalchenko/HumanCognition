@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Human Cognition</title>
+    <link rel="shortcut icon" href="../img/svg/cognition-greensvg.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/css/reset.css" />
+    <link rel="stylesheet" href="../styles/css/header.css" />
+    <link rel="stylesheet" href="../styles/css/style.css" />
+    <link rel="stylesheet" href="../styles/css/visual-memory.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+              <div class="header__inner">
+                <div class="header-left">
+                  <a href="index.html" class="header-logo">
+                    <img
+                      id="logo"
+                      class="cognition-logo"
+                      src="../img/svg/cognition.svg"
+                      alt=""
+                    />
+                    human cognition
+                  </a>
+                  <!-- <a href="statistics.html" class="header-statistics">Statistics</a> -->
+                </div>
+                <div class="header-right">
+                  <a href="registration.html" class="header__signup">sign up</a>
+                  <a href="login.html" class="header__login">login</a>
+                </div>
+              </div>
+            </div>
+          </header>
+          
+          <script>
+            if (location == "http://humancognition/html/aim.html") {
+              // alert(13)
+              let logo = document.querySelector(".header-logo");
+              console.log(logo);
+              logo.style.padding = "5px 8px 5px 0px";
+            }
+          </script>
+          
+
+    <main class="main">
+        <div class="main__inner">
+            <div id='game-window' class="game-window start">
+                <div id='content1' class="content1"><img class='logo' src="../img/svg/visual.svg" alt=""></div>
+                <div id='content2' class="content2"><h1 style='font-size: 40px'>Visual Memory</h1></div>
+                <div id='content3' class="content3"><button id='btn-start' class='btn btn-start'>Start</button></div>
+                <div id='miss-counter' class="miss">Misses left: 3</div>
+            </div>
+            <div class="about">
+                <div class="container">
+
+                    <div class="about__inner">
+                        <p style='font-size: 35px'>About the test</p> <br/>
+                        <p>Every level, a number of tiles will flash white. Memorize them, and pick them again after the tiles are reset!</p>
+                        <br/><p>Levels get progressively more difficult, to challenge your skills.</p>
+                        <br/><p>Make it as far as you can!</p>
+                        
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__copyright">Copyright 2023 Human Cognition</div>
+                <div class="footer__contact"><a target="_blank" href="mailto:egordelovayakolbasa@yandex.ru">egordelovayakolbasa@yandex.ru</a></div>
+                <div class="footer__git-hub"><a target="_blank" href="https://github.com/EgorSalchenko">GitHub</a></div>
+            </div>
+        </div>
+    </footer>
+    
+    <style>
+    .footer {
+        height: 70px;
+        /* background-color: #77a980; */
+    }
+    .container {
+    }
+    .footer__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: center;
+        height: 70px;
+        gap: 5px;
+    }
+    .footer a {
+        color: #770859;
+    }
+    </style>
+    </div>
+    <style>
+        .grid-container{
+            width: 400px;
+            height: 400px;
+        }
+        .gridBlock {
+            transition: 0.3s 
+        }
+        .grid-container{
+            
+        }
+        .miss {
+            display: none;
+            position: absolute;
+            top: 300px;
+            right: 100px;
+            font-size: 30px;
+        }
+    </style>
+    <script src='../js/visual-memory.js'></script>
+</body>
+</html>
